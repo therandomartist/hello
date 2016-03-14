@@ -1,0 +1,321 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Div Pixel Portraits – The Random Artist</title>
+    <style>
+        h1{text-align: center; font-family: 'Times New Roman', serif; font-size: 36px; font-weight: normal;}
+        .wrapper{width:700px; margin:0 auto; text-align: center;}
+        .btn{padding:10px; border:1px solid #000; display: inline-block; font-size: 12px; font-family: arial, sans-serif; text-transform: uppercase; margin:0px 10px; letter-spacing: 1px;}
+        .portrait{width:640px; margin:0 auto;}
+        .pixel{width:30px; height:30px; float:left;}
+        .white{background:#fff;}
+        .mario-red{background:#EF3B39;}
+        .mario-skin{background:#FFCC67;}
+        .mario-brown{background:#986828;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+    <script>
+        $(document).ready(function(){
+            $("#p1").click(function(){
+                $(".portrait").animate({width: '640px'}, "slow");
+            });
+            $("#p2").click(function(){
+                $(".portrait").animate({width: '480px'}, "slow");
+            });
+            $("#p3").click(function(){
+                $(".portrait").animate({width: '320px'}, "slow");
+            });
+        });
+    </script>
+  </head>
+  <body>
+      <p>&nbsp;</p>
+      <h1>Div Pixel Portraits with jQuery</h1>
+      <p>&nbsp;</p>
+    <div class="wrapper">
+        <div id="p1" class="btn">Too Big</div>
+        <div id="p3" class="btn">Too Small</div>
+        <div id="p2" class="btn">Just Right</div>
+        <p>&nbsp;</p>
+        <div class="portrait">
+            <!-- Row 1 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <!-- Row 2 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <!-- Row 3 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <!-- Row 4 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 5 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 6 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 7 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel white"></div>
+            <!-- Row 8 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <!-- Row 9 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <!-- Row 10 -->
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 11 -->
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 12 -->
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 13 -->
+            <div class="pixel white"></div>
+            <div class="pixel mario-skin"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 14 -->
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <!-- Row 15 -->
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <!-- Row 16 -->
+            <div class="pixel white"></div>
+            <div class="pixel mario-brown"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel mario-red"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+            <div class="pixel white"></div>
+        </div>
+        
+    </div>  
+      
+    
+  </body>
+</html>
